@@ -18,5 +18,5 @@ class ProductManager:
     def name_removal(self,name):
         self.products=[product for product in self.products if product.name != name]
         
-        
+  
         
